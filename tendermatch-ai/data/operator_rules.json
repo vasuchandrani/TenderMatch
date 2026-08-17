@@ -1,0 +1,41 @@
+{
+  "category_defaults": {
+    "memory": ">=",
+    "storage": ">=",
+    "processor": ">=",
+    "display": "==",
+    "power": ">=",
+    "physical": "<=",
+    "software": "==",
+    "service": ">=",
+    "networking": ">="
+  },
+  "spec_rules": {
+    "ram_capacity": ">=",
+    "ram_type": "==",
+    "ram_speed": ">=",
+    "storage_capacity": ">=",
+    "storage_type": "==",
+    "cpu_cores": ">=",
+    "cpu_threads": ">=",
+    "cpu_clock_speed": ">=",
+    "cpu_turbo_speed": ">=",
+    "display_size": "==",
+    "display_resolution": "==",
+    "display_refresh_rate": ">=",
+    "battery_life": ">=",
+    "battery_capacity": ">=",
+    "device_weight": "<=",
+    "operating_system": "==",
+    "warranty_duration": ">=",
+    "ethernet_speed": ">=",
+    "wifi_standard": "==",
+    "bluetooth_version": ">=",
+    "ip_rating": ">="
+  },
+  "type_fallbacks": {
+    "numeric": ">=",
+    "categorical": "==",
+    "text": "semantic"
+  }
+}

@@ -1,0 +1,191 @@
+[
+  {
+    "canonical_name": "ram_capacity",
+    "display_name": "RAM Capacity",
+    "category": "memory",
+    "default_unit": "GB",
+    "default_operator": ">=",
+    "synonyms": ["RAM", "Memory", "System Memory", "RAM Size", "Main Memory"],
+    "is_numeric": true
+  },
+  {
+    "canonical_name": "ram_type",
+    "display_name": "RAM Technology",
+    "category": "memory",
+    "default_unit": null,
+    "default_operator": "==",
+    "synonyms": ["RAM Type", "Memory Type", "DDR Type", "Generation"],
+    "is_numeric": false
+  },
+  {
+    "canonical_name": "ram_speed",
+    "display_name": "RAM Frequency",
+    "category": "memory",
+    "default_unit": "MHz",
+    "default_operator": ">=",
+    "synonyms": ["Memory Speed", "Clock Speed", "RAM Speed", "Bus Speed"],
+    "is_numeric": true
+  },
+  {
+    "canonical_name": "storage_capacity",
+    "display_name": "Storage Capacity",
+    "category": "storage",
+    "default_unit": "GB",
+    "default_operator": ">=",
+    "synonyms": ["Storage", "SSD", "HDD", "Hard Drive", "Internal Storage", "Disk Capacity"],
+    "is_numeric": true
+  },
+  {
+    "canonical_name": "storage_type",
+    "display_name": "Storage Type",
+    "category": "storage",
+    "default_unit": null,
+    "default_operator": "==",
+    "synonyms": ["Drive Type", "Disk Type", "Storage Interface", "SSD/HDD"],
+    "is_numeric": false
+  },
+  {
+    "canonical_name": "cpu_cores",
+    "display_name": "Processor Cores",
+    "category": "processor",
+    "default_unit": null,
+    "default_operator": ">=",
+    "synonyms": ["Cores", "Core Count", "CPU Cores", "Number of Cores"],
+    "is_numeric": true
+  },
+  {
+    "canonical_name": "cpu_threads",
+    "display_name": "Processor Threads",
+    "category": "processor",
+    "default_unit": null,
+    "default_operator": ">=",
+    "synonyms": ["Threads", "Thread Count", "Logical Processors"],
+    "is_numeric": true
+  },
+  {
+    "canonical_name": "cpu_clock_speed",
+    "display_name": "Processor Base Clock",
+    "category": "processor",
+    "default_unit": "GHz",
+    "default_operator": ">=",
+    "synonyms": ["Processor Speed", "Base Clock", "CPU Frequency", "Clock Speed"],
+    "is_numeric": true
+  },
+  {
+    "canonical_name": "cpu_turbo_speed",
+    "display_name": "Processor Boost Clock",
+    "category": "processor",
+    "default_unit": "GHz",
+    "default_operator": ">=",
+    "synonyms": ["Turbo Boost", "Max Turbo", "Boost Clock"],
+    "is_numeric": true
+  },
+  {
+    "canonical_name": "display_size",
+    "display_name": "Display Screen Size",
+    "category": "display",
+    "default_unit": "inches",
+    "default_operator": "==",
+    "synonyms": ["Screen Size", "Monitor Size", "Diagonal Size"],
+    "is_numeric": true
+  },
+  {
+    "canonical_name": "display_resolution",
+    "display_name": "Display Resolution",
+    "category": "display",
+    "default_unit": null,
+    "default_operator": "==",
+    "synonyms": ["Resolution", "Native Resolution", "Screen Resolution"],
+    "is_numeric": false
+  },
+  {
+    "canonical_name": "display_refresh_rate",
+    "display_name": "Display Refresh Rate",
+    "category": "display",
+    "default_unit": "Hz",
+    "default_operator": ">=",
+    "synonyms": ["Refresh Rate", "Panel Refresh"],
+    "is_numeric": true
+  },
+  {
+    "canonical_name": "battery_life",
+    "display_name": "Battery Operating Time",
+    "category": "power",
+    "default_unit": "hours",
+    "default_operator": ">=",
+    "synonyms": ["Battery Life", "Run Time", "Operating Time", "Autonomy"],
+    "is_numeric": true
+  },
+  {
+    "canonical_name": "battery_capacity",
+    "display_name": "Battery Capacity",
+    "category": "power",
+    "default_unit": "Wh",
+    "default_operator": ">=",
+    "synonyms": ["Battery Size", "Watt Hours", "Whr"],
+    "is_numeric": true
+  },
+  {
+    "canonical_name": "device_weight",
+    "display_name": "Device Weight",
+    "category": "physical",
+    "default_unit": "kg",
+    "default_operator": "<=",
+    "synonyms": ["Weight", "Gross Weight", "Mass", "System Weight"],
+    "is_numeric": true
+  },
+  {
+    "canonical_name": "operating_system",
+    "display_name": "Operating System",
+    "category": "software",
+    "default_unit": null,
+    "default_operator": "==",
+    "synonyms": ["OS", "Platform", "Preinstalled OS"],
+    "is_numeric": false
+  },
+  {
+    "canonical_name": "warranty_duration",
+    "display_name": "Warranty Duration",
+    "category": "service",
+    "default_unit": "years",
+    "default_operator": ">=",
+    "synonyms": ["Warranty", "Warranty Period", "Support Duration", "Guaranteed Service"],
+    "is_numeric": true
+  },
+  {
+    "canonical_name": "ethernet_speed",
+    "display_name": "Ethernet Interface Speed",
+    "category": "networking",
+    "default_unit": "Gbps",
+    "default_operator": ">=",
+    "synonyms": ["LAN Speed", "Ethernet", "RJ45 Speed", "Network Port"],
+    "is_numeric": true
+  },
+  {
+    "canonical_name": "wifi_standard",
+    "display_name": "Wi-Fi Standard",
+    "category": "networking",
+    "default_unit": null,
+    "default_operator": "==",
+    "synonyms": ["WiFi", "Wireless", "WLAN Standard", "Wi-Fi Generation"],
+    "is_numeric": false
+  },
+  {
+    "canonical_name": "bluetooth_version",
+    "display_name": "Bluetooth Version",
+    "category": "networking",
+    "default_unit": null,
+    "default_operator": ">=",
+    "synonyms": ["Bluetooth", "BT Version"],
+    "is_numeric": false
+  },
+  {
+    "canonical_name": "ip_rating",
+    "display_name": "Ingress Protection Rating",
+    "category": "physical",
+    "default_unit": null,
+    "default_operator": ">=",
+    "synonyms": ["IP Rating", "Water Resistance", "Dust Resistance", "Enclosure Protection"],
+    "is_numeric": false
+  }
+]

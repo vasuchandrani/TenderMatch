@@ -1,0 +1,110 @@
+{
+  "units": {
+    "storage": {
+      "base_unit": "MB",
+      "conversions": {
+        "KB": 0.0009765625,
+        "MB": 1.0,
+        "GB": 1024.0,
+        "TB": 1048576.0
+      },
+      "aliases": {
+        "gb": "GB",
+        "gigabytes": "GB",
+        "gigabyte": "GB",
+        "g": "GB",
+        "mb": "MB",
+        "megabytes": "MB",
+        "megabyte": "MB",
+        "tb": "TB",
+        "terabytes": "TB",
+        "terabyte": "TB",
+        "kb": "KB",
+        "kilobytes": "KB"
+      }
+    },
+    "frequency": {
+      "base_unit": "MHz",
+      "conversions": {
+        "Hz": 0.000001,
+        "kHz": 0.001,
+        "MHz": 1.0,
+        "GHz": 1000.0
+      },
+      "aliases": {
+        "ghz": "GHz",
+        "gigahertz": "GHz",
+        "mhz": "MHz",
+        "megahertz": "MHz",
+        "hz": "Hz",
+        "hertz": "Hz"
+      }
+    },
+    "weight": {
+      "base_unit": "g",
+      "conversions": {
+        "mg": 0.001,
+        "g": 1.0,
+        "kg": 1000.0,
+        "lbs": 453.59237,
+        "oz": 28.3495
+      },
+      "aliases": {
+        "kg": "kg",
+        "kilogram": "kg",
+        "kilograms": "kg",
+        "kilo": "kg",
+        "g": "g",
+        "gram": "g",
+        "grams": "g",
+        "lb": "lbs",
+        "lbs": "lbs",
+        "pound": "lbs",
+        "pounds": "lbs"
+      }
+    },
+    "time": {
+      "base_unit": "hours",
+      "conversions": {
+        "minutes": 0.0166666667,
+        "hours": 1.0,
+        "days": 24.0,
+        "months": 730.0,
+        "years": 8760.0
+      },
+      "aliases": {
+        "hr": "hours",
+        "hrs": "hours",
+        "hour": "hours",
+        "hours": "hours",
+        "min": "minutes",
+        "mins": "minutes",
+        "minute": "minutes",
+        "minutes": "minutes",
+        "yr": "years",
+        "yrs": "years",
+        "year": "years",
+        "years": "years",
+        "mo": "months",
+        "mos": "months",
+        "month": "months",
+        "months": "months"
+      }
+    },
+    "network_speed": {
+      "base_unit": "Mbps",
+      "conversions": {
+        "Kbps": 0.001,
+        "Mbps": 1.0,
+        "Gbps": 1000.0
+      },
+      "aliases": {
+        "gbps": "Gbps",
+        "mbps": "Mbps",
+        "kbps": "Kbps",
+        "gbit/s": "Gbps",
+        "mbit/s": "Mbps"
+      }
+    }
+  }
+}
